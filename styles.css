@@ -1,0 +1,367 @@
+* {
+    font-family: 'Miriam Libre', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 1em;
+}
+
+.my-image iframe {
+    display: none;
+}
+
+#exhibition iframe {
+    display: none;
+}
+
+nav ul li  {
+    display: inline-block;
+}
+
+nav {
+    text-align: center;
+    align-items:center
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.15em;
+    position: absolute;
+}
+
+header a {
+    text-decoration: none;
+    color:  #94CDD6;
+}
+
+header img {
+    width: 2em;
+    height: 2em;
+    margin-right: 2em;
+}
+
+nav ul li a {
+    margin: 0 0.5em;
+}
+
+i {
+    color: #94CDD6;
+}
+
+nav ul li a:hover {
+    text-shadow: 0.2em;
+    color:white;
+}
+
+.my-video p a{
+    color: #94CDD6;
+    text-decoration: none;
+    margin-left: 1em;
+}
+
+.my-logo img {
+    text-align: center;
+    width: 10em;
+}
+
+.my-logo {
+    color: #94CDD6;
+    text-align: center;
+}
+
+.my-image-title {
+    text-align: center;
+}
+
+.my-image-title img {
+    width: 90%;
+}
+
+h2 {
+    margin-bottom: 0.5em;
+    color: #94CDD6;
+    text-align: center;
+    margin: 2em 0;
+}
+
+.my-image img {
+    width: 100vw;
+}
+
+.my-image-title p {
+    text-align: left;
+    margin-left: 1%;
+    margin-top: 0.5em;
+}
+
+.color {
+    color: #94CDD6;
+}
+
+.my-text-title {
+    padding: 1em;
+    margin: 1em 0;
+}
+
+.my-text-title h3 {
+    text-align: center;
+    color: #94CDD6;
+    margin-bottom: 0.5em;
+}
+
+.my-text-title img {
+    width: 100%;
+    margin-top: 1em;
+}
+
+.my-location h2 {
+    text-align: center;
+    color: #94CDD6;
+    margin-bottom: 0.5em;
+}
+
+.my-location {
+    margin: 4em 0;
+}
+
+.my-text-title ol {
+    padding: 1.5em;
+}
+
+.my-text-title p {
+    margin: 0.5em 0;
+}
+
+.my-contact h3 {
+    text-align: center;
+    color: #94CDD6;
+    margin-bottom: 1em;
+}
+
+.my-contact {
+    padding: 1em;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.1em;
+}
+
+form input[type="text"] {
+    width: 100%;
+}
+
+form input[type="button"] {
+    padding: 0.5em;
+    background-color: #1A5B6D;
+    color: #94CDD6;
+}
+
+form div {
+    margin: 0.5em 0;
+}
+
+.input-inline {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.input-inline label {
+    margin-bottom: 0em;
+}
+
+.input-inline div {
+    width: 49%;
+}
+
+.my-contact i {
+    color: black;
+}
+
+.my-contact p {
+    margin: 0.2em 0;
+}
+
+.final {
+    margin-top: 0.7em;
+}
+
+footer {
+    background-color: #1A5B6D;
+    padding: 1em;
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 0.2em;
+}
+
+.icons p {
+    margin: 0 1em;
+}
+
+footer a {
+    color: #94CDD6;
+    text-decoration: none;
+}
+
+footer .links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+footer .links p {
+    margin: 0.25em 2em;
+}
+
+form {
+    padding: 1em;
+}
+
+form textarea {
+    width: 100%;
+}
+
+@media (min-width: 600px) and (max-width: 999px) {
+    .my-item {
+        display: flex;
+        justify-content: space-between;
+        margin: 3em 0;
+        padding: 1em;
+    }
+
+    .my-item .my-image-title {
+        width: 50%;
+    }
+
+    .my-item .my-text-title {
+        width: 50%;
+        margin: 0;
+        padding: 0;
+    }
+
+    footer .links {
+        flex-wrap: nowrap;
+    }
+
+    footer .links p {
+        margin: 0.25em 1em;
+    }
+
+    .my-logo {
+        position: absolute;
+        top: 40%;
+        left: 25%;
+        transform: translateX(-25%);
+        transform: translateY(-40%);
+    }
+
+    h1 {
+        font-size: 2em;
+        text-shadow: 2px 2px black;
+    }
+}
+
+@media (min-width: 1000px) {
+
+    .my-logo {
+        position: absolute;
+        top: 90%;
+        left: 35%;
+        transform: translateX(-35%);
+        transform: translateY(-80%);
+    }
+
+    h1 {
+        font-size: 2em;
+        text-shadow: 2px 2px black;
+    }
+
+    header {
+        width: 100%;
+        padding: 1em 3em;
+    }
+
+    header nav {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    header {
+        background-color: #1A5B6D;
+        clear: both;
+    }
+
+    .my-image img {
+        display: none;
+    }
+
+    .my-image iframe {
+        display: block;
+        width: 100vw;
+        height: 50em;
+        margin-bottom: 0.5em;
+    }
+
+    .my-item {
+        flex-direction: column;
+    }
+
+    .my-row {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .my-row .my-item {
+        width: 30%;
+    }
+
+    #exhibition img{
+        display: none;
+    }
+
+    #exhibition iframe {
+        display: block;
+        width: 100%;
+    }
+
+    .my-contact {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .my-contact div {
+        width: 100%;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+}
+    
+    
+    
+      
+
+    
+
+
+
+
+
+    
