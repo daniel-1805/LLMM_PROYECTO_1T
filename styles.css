@@ -1,5 +1,5 @@
 * {
-    font-family: 'Miriam Libre', sans-serif;
+    font-family: Sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -233,6 +233,10 @@ form textarea {
 }
 
 @media (min-width: 600px) and (max-width: 999px) {
+    
+    * {
+        font-family: 'Miriam Libre';
+    }
     .my-item {
         display: flex;
         justify-content: space-between;
